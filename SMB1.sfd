@@ -1,9 +1,9 @@
 SplineFontDB: 3.2
-FontName: Untitled1
-FullName: Untitled1
-FamilyName: Untitled1
+FontName: SuperMarioBrosFontRip
+FullName: Super Mario Bros. Font Rip
+FamilyName: Game Fonts
 Weight: Regular
-Copyright: Copyright (c) 2022, geno1024
+Copyright: Copyright (c) 1985, Nintendo\nCopyright (c) 2022, geno1024
 UComments: "2022-11-6: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
@@ -16,16 +16,18 @@ LayerCount: 2
 Layer: 0 0 "+gMxmbwAA" 1
 Layer: 1 0 "+Uk1mbwAA" 0
 XUID: [1021 992 -1131750718 3982697]
+StyleMap: 0x0000
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1667718205
-ModificationTime: 1667718205
+ModificationTime: 1667828387
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 90
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -34,16 +36,37 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -48
+DisplaySize: 21
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64 16 4
+WinInfo: 32 16 4
 OnlyBitmaps: 1
-BeginChars: 256 0
+BeginPrivate: 0
+EndPrivate
+BeginChars: 256 2
+
+StartChar: zero
+Encoding: 48 48 0
+Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: one
+Encoding: 49 49 1
+Width: 1000
+LayerCount: 2
+EndChar
 EndChars
+BitmapFont: 21 2 17 4 1
+BDFChar: 0 48 22 0 13 2 16
+&&8^k0^pdcn3$2&n3$2&n3$2&n2rfe4>7;]&&8/F
+BDFChar: 1 49 21 0 0 0 0
+z
+EndBitmapFont
 EndSplineFont
