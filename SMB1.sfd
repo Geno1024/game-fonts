@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
 FontName: SuperMarioBrosFontRip
 FullName: Super Mario Bros. Font Rip
-FamilyName: Game Fonts
+FamilyName: Super Mario Bros. Font Rip
 Weight: Regular
 Copyright: Copyright (c) 1985, Nintendo\nCopyright (c) 2022, geno1024
-UComments: "2022-11-6: Created with FontForge (http://fontforge.org)"
+UComments: "2022-11-06: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1667718205
-ModificationTime: 1667844216
+ModificationTime: 1667844614
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,7 +37,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1
@@ -46,10 +45,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 16 4
+WinInfo: 0 16 4
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 37
+BeginChars: 256 38
 
 StartChar: zero
 Encoding: 48 48 0
@@ -1291,6 +1290,14 @@ SplineSet
  625 -125 l 1
  625 -62.5 l 1
 EndSplineSet
+EndChar
+
+StartChar: space
+Encoding: 32 32 37
+Width: 1000
+Flags: HO
+LayerCount: 3
+Fore
 EndChar
 EndChars
 EndSplineFont
