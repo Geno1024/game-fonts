@@ -48,7 +48,7 @@ WinInfo: 32 16 4
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 2
+BeginChars: 256 3
 
 StartChar: zero
 Encoding: 48 48 0
@@ -60,13 +60,23 @@ EndChar
 StartChar: one
 Encoding: 49 49 1
 Width: 1000
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: two
+Encoding: 50 50 2
+Width: 1000
+Flags: W
 LayerCount: 2
 EndChar
 EndChars
-BitmapFont: 21 2 17 4 1
+BitmapFont: 21 3 17 4 1
 BDFChar: 0 48 22 0 13 2 16
 &&8^k0^pdcn3$2&n3$2&n3$2&n2rfe4>7;]&&8/F
-BDFChar: 1 49 21 0 0 0 0
-z
+BDFChar: 1 49 21 2 13 3 16
+%fd+?56*nJ%fd+?%fd+?%fd+?%fd+?s7$'X
+BDFChar: 2 50 21 0 13 3 16
+5O^o,n3$2&!;lip&+C,!5JTM!quHWps8;op
 EndBitmapFont
 EndSplineFont
